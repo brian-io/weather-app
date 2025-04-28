@@ -1,0 +1,44 @@
+# Node.js (frontend)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development
+frontend/.env
+
+# Laravel
+backend/vendor/
+backend/storage/
+backend/bootstrap/cache/
+backend/.env
+backend/.env.*.backup
+backend/storage/*.key
+backend/storage/logs/
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+
+# Composer
+backend/composer.lock
+
+# Node package locks (frontend)
+frontend/package-lock.json
+
+
+# IDEs and editors
+.next/
+.vscode/
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.log
+*.cache
+*.tmp
+
